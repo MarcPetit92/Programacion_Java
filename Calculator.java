@@ -265,14 +265,19 @@ public class Calculator extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    
+    //creamos la funcion para q los botones con numeros funcionen
     private void introducirNumero (String num)
     {
+            //recuperamos el numero anterior
             //String contenido = this.txt_pantalla.getText();
+            //lee añadimos el numero que hemos tecleado
             //contenido = contenido + "1";
             //txt_pantalla.setText(contenido);
+            //mostramos todo
             txt_pantalla.setText(this.txt_pantalla.getText()+num);
     }
-    
+    //creamos la funcion accion para que las operaciones funcionen
     private void accion(String operacion)
     {
         //recuperamos la ultima operacion
